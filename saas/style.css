@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #102d36;
+}
+
+nav {
+  margin-top: 2rem;
+}
+nav .logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav .logo .mainlogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.6rem;
+}
+nav .logo .mainlogo h1 {
+  font-size: 3.7rem;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+nav .logo .mainlogo span {
+  color: white;
+  font-size: 3.7rem;
+  font-weight: 100;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+nav .logo .mainlogo .logopic {
+  width: 50.54px;
+  height: 45.65px;
+  padding-right: 0.5rem;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.4rem;
+}
+nav ul li {
+  list-style: none;
+  font-size: 1.94rem;
+}
+nav ul li:first-child a {
+  color: #05f591;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #d8d8d8;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+nav button {
+  width: 120px;
+  height: 35px;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+  background-color: #06F591;
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+nav .upload {
+  width: 18px;
+}
+
+.container {
+  display: flex;
+  margin-top: 5rem;
+}
+.container .left {
+  align-self: flex-start;
+  margin: 15rem 0rem 0rem 5rem;
+  width: 50%;
+}
+.container .left h1 {
+  font-size: 5rem;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
+.container .left h1::after {
+  content: "Wallpaper!";
+  display: inline;
+  background-image: linear-gradient(to right, #05f591, #05f5d9);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+  padding-left: 0.6rem;
+}
+.container .left span {
+  font-size: 3.2rem;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.container .left p {
+  font-size: 1.76rem;
+  color: #ffffff;
+  line-height: 34.5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  width: 604px;
+}
+.container .left a {
+  font-size: 2.4rem;
+}
+.container .left button {
+  width: 230px;
+  height: 40px;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+  background-image: linear-gradient(to right, #05F591, #05F5D9);
+  padding: 4px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.container .left button img {
+  width: 18px;
+}
+.container .left .btna {
+  display: flex;
+  margin-top: 4rem;
+  align-items: center;
+}
+.container .left .btna a {
+  margin-left: 2.4rem;
+  font-size: 2rem;
+  color: #FFFFFF;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+.container .right {
+  width: 50%;
+}/*# sourceMappingURL=style.css.map */
